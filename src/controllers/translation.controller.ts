@@ -369,4 +369,56 @@ export class TranslationController {
       });
     }
   }
+
+  /**
+   * Çeviri tamamlanma yüzdesini hesaplar ve döndürür
+   */
+  static async getTranslationProgress(req: Request, res: Response): Promise<void> {
+    try {
+      const { namespace, language } = req.params;
+      const sourceLanguage = req.query.sourceLanguage as string || 'en';
+      
+      if (!namespace || !language) {
+        res.status(400).json({
+          success: false,
+          message: 'Namespace ve dil parametreleri gereklidir'
+        });
+        return;
+      }
+      
+      // Kaynak dil çevirilerini al (genellikle ingilizce)
+      const sourceContent = await TranslationService.getTranslation(namespace, sourceLanguage);
+      
+      if (!sourceContent) {
+        res.status(404).json({
+          success: false,
+          message: `${namespace} namespace'i ve ${sourceLanguage} dili için kaynak çeviri bulunamadı`
+        });
+        return;
+      }
+      
+      // Hedef dil çevirilerini al
+      const targetContent = await TranslationService.getTranslation(namespace, language);
+      
+      // İlerleme yüzdesini hesapla
+      const progress = TranslationService.calculateProgress(sourceContent, targetContent);
+      
+      res.json({
+        success: true,
+        data: {
+          progress,
+          namespace,
+          language,
+          sourceLanguage
+        }
+      });
+    } catch (error: any) {
+      logger.error(`getTranslationProgress hatası: ${error.message}`);
+      res.status(500).json({
+        success: false,
+        message: 'Çeviri ilerlemesi hesaplanırken bir hata oluştu',
+        error: error.message
+      });
+    }
+  }
 } 

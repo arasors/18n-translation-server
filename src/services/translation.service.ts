@@ -165,7 +165,15 @@ export class TranslationService {
         return existingTranslation;
       } else {
         // Çeviri yoksa, yeni çeviri oluştur
-        return await this.setTranslation(namespace, language, partialContent, userId);
+        const newTranslation = new Translation({
+          namespace,
+          language,
+          content: partialContent,
+          updatedBy: userId
+        });
+        
+        await newTranslation.save();
+        return newTranslation;
       }
     } catch (error: any) {
       logger.error(`updatePartialTranslation(${namespace}, ${language}) hatası: ${error.message}`);
@@ -254,5 +262,63 @@ export class TranslationService {
       logger.error(`importTranslation(${namespace}, ${language}) hatası: ${error.message}`);
       throw error;
     }
+  }
+
+  /**
+   * Çeviri tamamlanma yüzdesini hesaplar
+   * @param sourceContent Kaynak çeviri içeriği (genellikle ingilizce)
+   * @param targetContent Hedef çeviri içeriği
+   * @returns Tamamlanma yüzdesi (0-100)
+   */
+  static calculateProgress(sourceContent: Record<string, any>, targetContent: Record<string, any> | null): number {
+    if (!sourceContent || Object.keys(sourceContent).length === 0) {
+      return 0;
+    }
+
+    if (!targetContent) {
+      return 0;
+    }
+
+    // Tüm anahtarları ve alt anahtarları topla (düz bir liste olarak)
+    const flattenObject = (obj: Record<string, any>, prefix = ''): string[] => {
+      return Object.keys(obj).flatMap(key => {
+        const prefixedKey = prefix ? `${prefix}.${key}` : key;
+        if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
+          return flattenObject(obj[key], prefixedKey);
+        }
+        return [prefixedKey];
+      });
+    };
+
+    // Bir anahtar yolunun değerini al
+    const getNestedValue = (obj: Record<string, any>, path: string): any => {
+      const keys = path.split('.');
+      let value = obj;
+      
+      for (const key of keys) {
+        if (value === undefined || value === null) return undefined;
+        value = value[key];
+      }
+      
+      return value;
+    };
+
+    // Tüm düz anahtarları al
+    const sourceKeys = flattenObject(sourceContent);
+    
+    // Çevrilen anahtar sayısını hesapla
+    let translatedCount = 0;
+    
+    for (const key of sourceKeys) {
+      const targetValue = getNestedValue(targetContent, key);
+      // Değer varsa ve boş değilse çevrilmiş sayılır
+      if (targetValue !== undefined && targetValue !== null && targetValue !== '') {
+        translatedCount++;
+      }
+    }
+    
+    // Yüzdeyi hesapla ve yuvarla
+    const percentage = (translatedCount / sourceKeys.length) * 100;
+    return Math.round(percentage);
   }
 } 

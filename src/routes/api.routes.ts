@@ -20,6 +20,9 @@ router.get('/translations/language/:language', TranslationController.getLanguage
 // Belirli bir namespace ve dil için çeviri içeriğini getir
 router.get('/translations/:namespace/:language', TranslationController.getTranslation);
 
+// Belirli bir namespace ve dil için çeviri ilerleme durumunu getir
+router.get('/translations/:namespace/:language/progress', TranslationController.getTranslationProgress);
+
 // Filtrelere göre tüm çevirileri getir
 // ?namespace=common&language=tr şeklinde query parametreleriyle çalışır
 router.get('/translations', TranslationController.getAllTranslations);

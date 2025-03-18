@@ -2697,3 +2697,473 @@
 2025-03-18 13:11:57 [info]: GET /translations/showcase/en 304 - undefinedms
 2025-03-18 13:11:57 [info]: GET /translations/calendar/en 304 - undefinedms
 2025-03-18 13:14:09 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 13:25:53 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 13:25:54 [info]: MongoDB bağlantısı başarılı
+2025-03-18 13:25:54 [info]: Varsayılan çeviriler kontrol ediliyor...
+2025-03-18 13:25:54 [info]: Veritabanında çeviriler zaten mevcut. Varsayılan çeviriler yüklenmeyecek.
+2025-03-18 13:25:54 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 13:25:54 [info]: Çalışma Modu: development
+2025-03-18 13:32:50 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 15:27:15 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 15:27:15 [info]: MongoDB bağlantısı başarılı
+2025-03-18 15:27:15 [info]: Varsayılan çeviriler kontrol ediliyor...
+2025-03-18 15:27:15 [info]: Hiç çeviri bulunamadı. Varsayılan çeviriler yükleniyor...
+2025-03-18 15:27:15 [info]: en dili için çeviriler yükleniyor...
+2025-03-18 15:27:15 [info]: en/auth çevirisi yükleniyor...
+2025-03-18 15:27:16 [info]: en/auth çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:16 [info]: en/calendar çevirisi yükleniyor...
+2025-03-18 15:27:16 [info]: en/calendar çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:16 [info]: en/common çevirisi yükleniyor...
+2025-03-18 15:27:16 [info]: en/common çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:16 [info]: en/config çevirisi yükleniyor...
+2025-03-18 15:27:16 [info]: en/config çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:16 [info]: en/dashboard çevirisi yükleniyor...
+2025-03-18 15:27:16 [info]: en/dashboard çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:16 [info]: en/dictionaries çevirisi yükleniyor...
+2025-03-18 15:27:16 [info]: en/dictionaries çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:16 [info]: en/faq çevirisi yükleniyor...
+2025-03-18 15:27:17 [info]: en/faq çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:17 [info]: en/forms çevirisi yükleniyor...
+2025-03-18 15:27:17 [info]: en/forms çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:17 [info]: en/inbox çevirisi yükleniyor...
+2025-03-18 15:27:17 [info]: en/inbox çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:17 [info]: en/landing çevirisi yükleniyor...
+2025-03-18 15:27:17 [info]: en/landing çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:17 [info]: en/layouts çevirisi yükleniyor...
+2025-03-18 15:27:17 [info]: en/layouts çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:17 [info]: en/membership çevirisi yükleniyor...
+2025-03-18 15:27:17 [info]: en/membership çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:17 [info]: en/merchant çevirisi yükleniyor...
+2025-03-18 15:27:18 [info]: en/merchant çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:18 [info]: en/messenger çevirisi yükleniyor...
+2025-03-18 15:27:18 [info]: en/messenger çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:18 [info]: en/navbar çevirisi yükleniyor...
+2025-03-18 15:27:18 [info]: en/navbar çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:18 [info]: en/pages çevirisi yükleniyor...
+2025-03-18 15:27:18 [info]: en/pages çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:18 [info]: en/payment-gateways çevirisi yükleniyor...
+2025-03-18 15:27:18 [info]: en/payment-gateways çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:18 [info]: en/payment çevirisi yükleniyor...
+2025-03-18 15:27:18 [info]: en/payment çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:18 [info]: en/profile çevirisi yükleniyor...
+2025-03-18 15:27:18 [info]: en/profile çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:18 [info]: en/properties çevirisi yükleniyor...
+2025-03-18 15:27:19 [info]: en/properties çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:19 [info]: en/showcase çevirisi yükleniyor...
+2025-03-18 15:27:19 [info]: en/showcase çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:19 [info]: en/site-config çevirisi yükleniyor...
+2025-03-18 15:27:19 [info]: en/site-config çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:19 [info]: en/site_pages çevirisi yükleniyor...
+2025-03-18 15:27:19 [info]: en/site_pages çevirisi başarıyla oluşturuldu.
+2025-03-18 15:27:19 [info]: en dili için çevirilerin yüklenmesi tamamlandı.
+2025-03-18 15:27:19 [info]: Varsayılan çevirilerin yüklenmesi tamamlandı.
+2025-03-18 15:27:19 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 15:27:19 [info]: Çalışma Modu: development
+2025-03-18 15:27:23 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 15:40:43 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 15:40:43 [info]: MongoDB bağlantısı başarılı
+2025-03-18 15:40:43 [info]: Varsayılan çeviriler kontrol ediliyor...
+2025-03-18 15:40:44 [info]: Veritabanında çeviriler zaten mevcut. Varsayılan çeviriler yüklenmeyecek.
+2025-03-18 15:40:44 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 15:40:44 [info]: Çalışma Modu: development
+2025-03-18 15:45:30 [info]: GET /translations/auth/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/common/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/dashboard/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/forms/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/profile/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/membership/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/payment/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/navbar/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/landing/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/properties/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/faq/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/merchant/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/site_pages/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/config/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/site-config/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/inbox/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/payment-gateways/en 200 - undefinedms
+2025-03-18 15:45:30 [info]: GET /translations/pages/en 200 - undefinedms
+2025-03-18 15:45:31 [info]: GET /translations/layouts/en 200 - undefinedms
+2025-03-18 15:45:31 [info]: GET /translations/dictionaries/en 200 - undefinedms
+2025-03-18 15:45:31 [info]: GET /translations/calendar/en 200 - undefinedms
+2025-03-18 15:45:31 [info]: GET /translations/messenger/en 200 - undefinedms
+2025-03-18 15:45:31 [info]: GET /translations/showcase/en 200 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/common/en 200 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /languages 304 - undefinedms
+2025-03-18 15:45:33 [info]: GET /languages 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:45:34 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:45:40 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:45:43 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 15:46:05 [info]: GET /translations/common/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/navbar/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/forms/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/dashboard/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/landing/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/auth/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/payment/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/messenger/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/dictionaries/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/properties/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/faq/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/merchant/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/site_pages/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/profile/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/site-config/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/inbox/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/payment-gateways/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/pages/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/layouts/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/showcase/en 200 - undefinedms
+2025-03-18 15:46:05 [info]: GET /translations/membership/en 200 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/config/en 200 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/calendar/en 200 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /languages 304 - undefinedms
+2025-03-18 15:46:06 [info]: GET /languages 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:47:02 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:47:07 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:47:14 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:20 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:47:40 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:47:48 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:48 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:47:48 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:47:48 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:47:48 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:47:48 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:47:48 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:47:49 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:49:56 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 15:50:13 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:50:13 [info]: GET /translations/tr/common 404 - undefinedms
+2025-03-18 15:50:56 [info]: PATCH /translations/common/tr 200 - undefinedms
+2025-03-18 15:51:07 [info]: PATCH /translations/common/tr 200 - undefinedms
+2025-03-18 15:51:07 [info]: PATCH /translations/common/tr 200 - undefinedms
+2025-03-18 15:51:07 [info]: PATCH /translations/common/tr 200 - undefinedms
+2025-03-18 15:51:07 [info]: PATCH /translations/common/tr 200 - undefinedms
+2025-03-18 15:51:07 [info]: PATCH /translations/common/tr 200 - undefinedms
+2025-03-18 15:51:29 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 15:53:53 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:53:53 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:54:23 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/common/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/navbar/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/auth/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/dashboard/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/landing/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/forms/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/profile/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/membership/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/payment/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/messenger/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/properties/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/dictionaries/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/site_pages/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/faq/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/config/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/merchant/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/site-config/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/payment-gateways/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/layouts/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/pages/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/inbox/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/showcase/en 304 - undefinedms
+2025-03-18 15:54:32 [info]: GET /translations/calendar/en 304 - undefinedms
+2025-03-18 15:55:38 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 15:56:13 [error]: getTranslation(auth, en) hatası: Topology is closed
+2025-03-18 15:56:24 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 15:56:54 [error]: MongoDB bağlantı hatası: connect ECONNREFUSED 62.169.27.108:27017
