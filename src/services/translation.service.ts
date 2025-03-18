@@ -58,8 +58,7 @@ export class TranslationService {
    */
   static async getAllTranslations(filter: { namespace?: string; language?: string } = {}): Promise<ITranslation[]> {
     try {
-      const query = Translation.find(filter);
-      const translations = await query.exec();
+      const translations = await Translation.find(filter);
       return translations;
     } catch (error: any) {
       logger.error(`getAllTranslations hatası: ${error.message}`);
@@ -78,7 +77,7 @@ export class TranslationService {
       // Namespace'leri anahtar olarak kullanan bir nesne oluştur
       const result: Record<string, Record<string, any>> = {};
       
-      translations.forEach(translation => {
+      translations.forEach((translation: any) => {
         result[translation.namespace] = translation.content;
       });
       

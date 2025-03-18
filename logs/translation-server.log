@@ -1,0 +1,112 @@
+2025-03-18 10:23:56 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017
+2025-03-18 10:23:56 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:23:56 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:23:56 [info]: Çalışma Modu: development
+2025-03-18 10:24:07 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017
+2025-03-18 10:24:07 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:24:07 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:24:07 [info]: Çalışma Modu: development
+2025-03-18 10:24:32 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017
+2025-03-18 10:24:32 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:24:32 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:24:32 [info]: Çalışma Modu: development
+2025-03-18 10:24:54 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017
+2025-03-18 10:24:54 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:24:54 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:24:54 [info]: Çalışma Modu: development
+2025-03-18 10:25:09 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017
+2025-03-18 10:25:10 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:25:10 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:25:10 [info]: Çalışma Modu: development
+2025-03-18 10:25:16 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017
+2025-03-18 10:25:17 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:25:17 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:25:17 [info]: Çalışma Modu: development
+2025-03-18 10:28:07 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 10:28:43 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/prop360
+2025-03-18 10:28:43 [error]: MongoDB bağlantı hatası: Authentication failed.
+2025-03-18 10:29:34 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 10:29:35 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:29:35 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:29:35 [info]: Çalışma Modu: development
+2025-03-18 10:29:50 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 10:30:11 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 10:30:11 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:30:11 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:30:11 [info]: Çalışma Modu: development
+2025-03-18 10:30:12 [info]: GET /languages 200 - undefinedms
+2025-03-18 10:30:12 [info]: GET /favicon.ico 404 - undefinedms
+2025-03-18 10:30:16 [info]: GET /languages 200 - undefinedms
+2025-03-18 10:30:34 [info]: GET /namespaces 200 - undefinedms
+2025-03-18 10:30:37 [info]: GET /namespaces 200 - undefinedms
+2025-03-18 10:30:55 [info]: GET /translations/common/en 200 - undefinedms
+2025-03-18 10:32:52 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 10:35:09 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 10:35:09 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:35:09 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:35:09 [info]: Çalışma Modu: development
+2025-03-18 10:35:13 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 10:41:18 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 10:41:19 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:41:19 [info]: Varsayılan çeviriler kontrol ediliyor...
+2025-03-18 10:41:19 [info]: Hiç çeviri bulunamadı. Varsayılan çeviriler yükleniyor...
+2025-03-18 10:41:19 [info]: en dili için çeviriler yükleniyor...
+2025-03-18 10:41:19 [info]: en/auth çevirisi yükleniyor...
+2025-03-18 10:41:19 [info]: en/auth çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:19 [info]: en/calendar çevirisi yükleniyor...
+2025-03-18 10:41:19 [info]: en/calendar çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:19 [info]: en/common çevirisi yükleniyor...
+2025-03-18 10:41:19 [info]: en/common çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:19 [info]: en/config çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/config çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/dashboard çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/dashboard çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/dictionaries çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/dictionaries çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/faq çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/faq çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/forms çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/forms çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/inbox çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/inbox çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/landing çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/landing çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/layouts çevirisi yükleniyor...
+2025-03-18 10:41:20 [info]: en/layouts çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:20 [info]: en/membership çevirisi yükleniyor...
+2025-03-18 10:41:21 [info]: en/membership çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:21 [info]: en/merchant çevirisi yükleniyor...
+2025-03-18 10:41:21 [info]: en/merchant çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:21 [info]: en/messenger çevirisi yükleniyor...
+2025-03-18 10:41:21 [info]: en/messenger çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:21 [info]: en/navbar çevirisi yükleniyor...
+2025-03-18 10:41:21 [info]: en/navbar çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:21 [info]: en/pages çevirisi yükleniyor...
+2025-03-18 10:41:21 [info]: en/pages çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:21 [info]: en/payment-gateways çevirisi yükleniyor...
+2025-03-18 10:41:21 [info]: en/payment-gateways çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:21 [info]: en/payment çevirisi yükleniyor...
+2025-03-18 10:41:21 [info]: en/payment çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:21 [info]: en/profile çevirisi yükleniyor...
+2025-03-18 10:41:22 [info]: en/profile çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:22 [info]: en/properties çevirisi yükleniyor...
+2025-03-18 10:41:22 [info]: en/properties çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:22 [info]: en/showcase çevirisi yükleniyor...
+2025-03-18 10:41:22 [info]: en/showcase çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:22 [info]: en/site-config çevirisi yükleniyor...
+2025-03-18 10:41:22 [info]: en/site-config çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:22 [info]: en/site_pages çevirisi yükleniyor...
+2025-03-18 10:41:22 [info]: en/site_pages çevirisi başarıyla oluşturuldu.
+2025-03-18 10:41:22 [info]: en dili için çevirilerin yüklenmesi tamamlandı.
+2025-03-18 10:41:22 [info]: Varsayılan çevirilerin yüklenmesi tamamlandı.
+2025-03-18 10:41:22 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:41:22 [info]: Çalışma Modu: development
+2025-03-18 10:42:17 [warn]: MongoDB bağlantısı kesildi
+2025-03-18 10:42:32 [info]: MongoDB'ye bağlanılıyor: mongodb://admin:prop36012345@62.169.27.108:27017/
+2025-03-18 10:42:33 [info]: MongoDB bağlantısı başarılı
+2025-03-18 10:42:33 [info]: Varsayılan çeviriler kontrol ediliyor...
+2025-03-18 10:42:33 [info]: Veritabanında çeviriler zaten mevcut. Varsayılan çeviriler yüklenmeyecek.
+2025-03-18 10:42:33 [info]: Translation Server başlatıldı: http://localhost:3001
+2025-03-18 10:42:33 [info]: Çalışma Modu: development
+2025-03-18 10:42:33 [info]: GET /namespaces 200 - undefinedms
+2025-03-18 10:42:43 [warn]: MongoDB bağlantısı kesildi

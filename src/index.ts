@@ -4,6 +4,7 @@ import { connectDB } from './lib/db';
 import { logger } from './lib/logger';
 import path from 'path';
 import fs from 'fs';
+import { setDefaultTranslations } from './utils/set-defaults';
 
 // Ortam değişkenleri
 const PORT = process.env.PORT || 3001;
@@ -19,6 +20,9 @@ const startServer = async () => {
   try {
     // MongoDB bağlantısı
     await connectDB();
+    
+    // Varsayılan çevirileri kontrol et ve yükle
+    await setDefaultTranslations();
     
     // Express sunucusunu başlat
     app.listen(PORT, () => {

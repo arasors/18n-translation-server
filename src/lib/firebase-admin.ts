@@ -2,11 +2,14 @@ import * as admin from 'firebase-admin';
 import { Request, Response, NextFunction } from 'express';
 import path from 'path';
 import fs from 'fs';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Service account dosyasının yolunu belirleme
 const serviceAccountPath = path.resolve(
   process.env.FIREBASE_SERVICE_ACCOUNT_PATH || 
-  path.join(__dirname, '../../lib/firebase-admin-services.json')
+  path.join(__dirname, process.env.FIREBASE_SERVICE_ACCOUNT_PATH || '')
 );
 
 // Firebase admin başlatma
@@ -19,8 +22,7 @@ if (!admin.apps.length) {
       );
       
       admin.initializeApp({
-        credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
-        databaseURL: process.env.FIREBASE_DATABASE_URL,
+        credential: admin.credential.cert(serviceAccount as admin.ServiceAccount)
       });
     } else {
       throw new Error(`Firebase service account dosyası bulunamadı: ${serviceAccountPath}`);
@@ -48,6 +50,12 @@ export const authenticateRequest = async (req: Request, res: Response, next: Nex
     
     const token = authHeader.split('Bearer ')[1];
     
+    if(!token){
+      return res.status(401).json({ 
+        success: false, 
+        message: 'Kimlik doğrulama başarısız: Geçerli bir token bulunamadı' 
+      });
+    }
     // Token doğrulama
     const decodedToken = await auth.verifyIdToken(token);
     

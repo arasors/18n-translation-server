@@ -51,14 +51,8 @@ const TranslationSchema = new Schema<ITranslation>(
     // Otomatik tarih damgası
     timestamps: true, 
     
-    // İçerik için versiyonlama aktif
-    versionKey: true,
-    
-    // Bileşik indeks oluşturma
-    // namespace ve language kombinasyonu benzersiz olmalı
-    indexes: [
-      { namespace: 1, language: 1 }
-    ]
+    // İçerik için versiyonlama aktif ve alanı "__v" olarak ayarla
+    versionKey: "__v"
   }
 );
 

@@ -2,11 +2,12 @@ import mongoose from 'mongoose';
 import { logger } from './logger';
 
 // MongoDB URI tanımlama
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/prop360';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/admin';
 
 // Bağlantı seçenekleri
 const options = {
   autoIndex: true,
+  dbName: 'prop360' // Admin veritabanı ile doğrulama yaptıktan sonra prop360 veritabanını kullan
 };
 
 /**
