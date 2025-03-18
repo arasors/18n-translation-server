@@ -1,0 +1,36 @@
+{
+  "title": "Inbox",
+  "noMessages": "You have no messages yet",
+  "markAsRead": "Mark as read",
+  "delete": "Delete",
+  "filter": "Filter",
+  "filterDescription": "Use the following options to filter messages",
+  "filterByUser": "Filter by user",
+  "selectUser": "Select user",
+  "allUsers": "All users",
+  "resetFilters": "Reset filters",
+  "applyFilters": "Apply filters",
+  "property": "Property",
+  "selectMessage": "Select message",
+  "messageDetail": "Message detail",
+  "noSubject": "No subject",
+  "from": "From",
+  "relatedProperty": "Related property",
+  "success": {
+    "markAsRead": "Message marked as read",
+    "delete": "Message deleted"
+  },
+  "error": {
+    "markAsRead": "Message could not be marked as read",
+    "delete": "Message could not be deleted",
+    "fetch": "Error fetching messages"
+  },
+  "deleteMessage": {
+    "title": "Delete Message",
+    "description": "Are you sure you want to delete this message? This action cannot be undone."
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "delete": "Delete"
+  }
+}

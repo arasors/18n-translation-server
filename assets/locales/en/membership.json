@@ -1,0 +1,198 @@
+{
+  "title": "Membership Plans",
+  "description": "Choose the plan that best fits your needs",
+  "noPlansFound": "No membership plans found",
+  "loading": "Loading membership plans...",
+  "tableCaption": "A list of all membership plans",
+  "unlimited": "Unlimited",
+  "free": "Free",
+  "popular": "Popular",
+  "freeTrial": "Free Trial",
+  "currentPlan": "Current Plan",
+  "upgrade": "Upgrade",
+  "downgrade": "Downgrade",
+  "startFreeTrial": "Start Free Trial",
+  "perMonth": "/month",
+  "perYear": "/year",
+  "yearlyDiscount": "Save 2 months with annual billing",
+  "merchantDetails": "Company Details",
+  "overview": "Overview",
+  "membership": "Membership",
+  "settings": "Settings",
+  "billingCycle": {
+    "title": "Billing Cycle",
+    "monthly": "Monthly",
+    "yearly": "Yearly (Save 20%)"
+  },
+  
+  "fields": {
+    "name": "Name",
+    "type": "Type",
+    "description": "Description",
+    "price": "Price",
+    "default": "Default",
+    "active": "Active",
+    "popular": "Popular",
+    "freeTrial": "Free Trial",
+    "stripe": "Stripe",
+    "trialDays": "Trial Period (Days)",
+    "trialDaysDescription": "Number of days users can try the plan before being charged",
+    "actions": "Actions"
+  },
+  
+  "types": {
+    "free": "Free",
+    "basic": "Basic",
+    "premium": "Premium",
+    "enterprise": "Enterprise"
+  },
+  
+  "tabs": {
+    "general": "General",
+    "limits": "Limits",
+    "features": "Features",
+    "overview": "Overview",
+    "membership": "Membership",
+    "users": "Users",
+    "settings": "Settings",
+    "pages": "Pages",
+    "forms": "Forms"
+  },
+  
+  "limits": {
+    "description": "Set the limits for each feature. Use -1 for unlimited.",
+    "useNegative": "Use -1 for unlimited",
+    "formData": "Form Entries",
+    "formDataDesc": "Maximum number of form submissions that can be stored",
+    "forms": "Create Forms",
+    "formsDesc": "Maximum number of forms that can be created",
+    "pages": "Custom Pages",
+    "pagesDesc": "Maximum number of pages that can be created",
+    "users": "Create Users",
+    "usersDesc": "Maximum number of users that can be added to the account"
+  },
+  
+  "features": {
+    "description": "Select the features that are included in this plan",
+    "taskManagement": "Task Management",
+    "calendar": "Calendar",
+    "domainCustomize": "Domain Customization",
+    "api": "API Access",
+    "support": "Customer Support",
+    "listings": "{{count}} Listings",
+    "forms": "{{count}} Forms",
+    "pages": "{{count}} Pages",
+    "users": "{{count}} Users"
+  },
+  
+  "actions": {
+    "create": "Create Plan",
+    "createFirst": "Create First Plan",
+    "update": "Update Plan",
+    "delete": "Delete"
+  },
+  
+  "dialogs": {
+    "create": {
+      "title": "Create Membership Plan",
+      "description": "Create a new membership plan with custom limits and features"
+    },
+    "edit": {
+      "title": "Edit Membership Plan",
+      "description": "Modify the details, limits, and features of this membership plan"
+    },
+    "delete": {
+      "title": "Delete Membership Plan",
+      "description": "Are you sure you want to delete this membership plan?",
+      "confirmation": "You are about to delete the plan: {{name}}. This action cannot be undone."
+    }
+  },
+  
+  "success": {
+    "created": "Membership plan created successfully",
+    "updated": "Membership plan updated successfully",
+    "deleted": "Membership plan deleted successfully"
+  },
+  
+  "errors": {
+    "fetchFailed": "Failed to fetch membership plans",
+    "fetchFailedDescription": "An error occurred while loading membership plans. Please try again later.",
+    "saveFailed": "Failed to save membership plan",
+    "deleteFailed": "Failed to delete membership plan",
+    "priceRequired": "You must enter a price for non-free plans",
+    "stripeError": "An error occurred during Stripe synchronization"
+  },
+  
+  "upgradeNotAvailable": {
+    "title": "Upgrade Not Available",
+    "description": "The payment system is not yet available. Please try again later."
+  },
+  
+  "plans": {
+    "free": {
+      "title": "Free",
+      "description": "Basic features for small businesses"
+    },
+    "basic": {
+      "title": "Basic",
+      "description": "Essential features for growing businesses"
+    },
+    "premium": {
+      "title": "Premium",
+      "description": "Advanced features for established businesses"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Complete solution for large businesses"
+    }
+  },
+  "membershipPlan": "Membership Plan",
+  "membershipPlans": "Membership Plans",
+  "membershipPlanDescription": "Manage the merchant's membership plan",
+  "changePlan": "Change Plan",
+  "assignPlan": "Assign Plan",
+  "selectNewPlan": "Select New Plan",
+  "selectPlan": "Select Plan",
+  "membershipDetails": "Membership Details",
+  "planType": "Plan Type",
+  "nextBillingDate": "Next Billing Date",
+  "quarterly": "Quarterly",
+  "yearly": "Yearly",
+  "usage": "Usage",
+  "formData": "Form Data",
+  "pages": "Pages",
+  "users": "Users",
+  "formDataLimit": "Form Data Limit",
+  "formsLimit": "Forms Limit",
+  "pagesLimit": "Pages Limit",
+  "usersLimit": "Users Limit",
+  "taskManagement": "Task Management",
+  "calendar": "Calendar",
+  "domainCustomize": "Domain Customization",
+  "api": "API Access",
+  "support": "Support",
+  "month": "month",
+  "noPlanAssigned": "No membership plan assigned yet",
+  "changeMembershipPlan": "Change Membership Plan",
+  "changeMembershipPlanDescription": "Select a new membership plan for the merchant",
+  "selectedPlan": "Selected Plan",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "confirmChange": "Confirm Change",
+  "updating": "Updating...",
+  "membershipPlanUpdated": "Membership plan updated successfully",
+  "errorUpdatingMembershipPlan": "Error updating membership plan",
+  "createdAt": "Created At",
+  "updatedAt": "Updated At",
+  "merchantId": "Company ID",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "address": "Address",
+  "city": "City",
+  "state": "State",
+  "zip": "Zip",
+  "buttons": {
+    "cancel": "Cancel"
+  }
+} 

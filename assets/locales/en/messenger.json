@@ -1,0 +1,51 @@
+{
+  "title": "Messenger",
+  "subtitle": "Internal communication tool",
+  "noMessages": "No messages yet",
+  "startConversation": "Start Conversation",
+  "sendFirstMessage": "Send the first message and start the conversation",
+  "writeMessage": "Write your message...",
+  "send": "Send",
+  "chat": "Chat",
+  "newChat": "New Chat",
+  "search": "Search...",
+  "searchChats": "Search chats...",
+  "moreUsers": "and {{count}} more users",
+  "noUnreadMessages": "No unread messages",
+  "you": "You",
+  "allChats": "All Chats",
+  "unreadChats": "Unread Chats",
+  "noChats": "No chats yet",
+  "startNewChat": "Start a new chat",
+  "read": "Read",
+  "connectionStatus": {
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "error": "Connection error",
+    "reconnecting": "Reconnecting..."
+  },
+  "sse": {
+    "connected": "SSE connection established",
+    "connectionSuccess": "SSE connection successful",
+    "messageReceived": "SSE message received",
+    "unknownMessageType": "Unknown SSE message type",
+    "messageError": "Error processing SSE message",
+    "connectionError": "SSE connection error"
+  },
+  "errors": {
+    "sendFailed": "Failed to send message",
+    "sendError": "Error sending message",
+    "markAsReadError": "Error marking messages as read"
+  },
+  "newChatDialog": {
+    "title": "New Chat",
+    "participants": "Participants",
+    "noUsersFound": "No users yet",
+    "searchUsers": "Search users...",
+    "chatTitle": "Chat Title (Optional)",
+    "firstMessage": "First Message (Optional)",
+    "firstMessagePlaceholder": "Write your first message...",
+    "create": "Create",
+    "cancel": "Cancel"
+  }
+}

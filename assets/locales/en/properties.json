@@ -1,0 +1,227 @@
+{
+  "title": "Property Management",
+  "titles": {
+    "properties": "Properties",
+    "contacts": "Contact Forms",
+    "partners": "Partners",
+    "surveys": "Surveys",
+    "leads": "Leads"
+  },
+  "description": "Manage your portfolio",
+  "loading": "Loading...",
+  "list": {
+    "title": "Property List",
+    "description": "View, edit and manage all properties",
+    "empty": "No properties found"
+  },
+  "search": {
+    "placeholder": "Search property name, city or district..."
+  },
+  "filters": {
+    "all": "All",
+    "status": "Status",
+    "category": "Category",
+    "visibility": "Visibility",
+    "content": "Content Type"
+  },
+  "table": {
+    "image": "Image",
+    "title": "Title",
+    "price": "Price",
+    "category": "Category",
+    "location": "Location",
+    "city": "City",
+    "district": "District",
+    "features": "Features",
+    "merchant": "Merchant",
+    "status": "Status",
+    "visibility": "Visibility",
+    "content": "Content Type",
+    "actions": "Actions",
+    "search": "Search...",
+    "columns": "Columns",
+    "rowsPerPage": "Rows per page",
+    "previous": "Previous",
+    "next": "Next",
+    "noResults": "No results found",
+    "of": "of",
+    "showing": "Page",
+    "to": "to",
+    "total": "Total",
+    "rowCount": "{{count}} records",
+    "searchPlaceholder": "Search...",
+    "searchDescription": "Search by title or description",
+    "searchResults": "Search results",
+    "searchResultsDescription": "Search results for \"{{search}}\"",
+    "files": "Files",
+    "moreFiles": "{{count}} more files"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "public": "Public",
+    "private": "Private",
+    "destructive": "Sensitive",
+    "deleted": "Deleted",
+    "safe": "Safe"
+  },
+  "features": {
+    "rooms": "Rooms",
+    "bathrooms": "Bathrooms",
+    "squareMeters": "m²",
+    "view": "View"
+  },
+  "actions": {
+    "create": "Add New Property",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "open": "Open Menu",
+    "markSafe": "Mark as Safe",
+    "markDestructive": "Mark as Sensitive",
+    "markPublic": "Mark as Public",
+    "markPrivate": "Mark as Private"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}-{{to}} of {{total}} properties",
+    "perPage": "per page",
+    "of": "of"
+  },
+  "form": {
+    "owner": "Owner",
+    "isPublic": "Published",
+    "ownerDescription": "Who will this form data belong to?",
+    "allUsers": "All Users",
+    "selectOwner": "Select Owner",
+    "allUser": "All User",
+    "secure": "Secure Field"
+  },
+  "modal": {
+    "default": {
+      "createTitle": "Add New",
+      "editTitle": "Edit",
+      "previewTitle": "Preview"
+    },
+    "properties": {
+      "createTitle": "Create Property",
+      "editTitle": "Edit Property",
+      "previewTitle": "Preview Property"
+    },
+    "contacts": {
+      "createTitle": "Create Contact",
+      "editTitle": "Edit Contact",
+      "previewTitle": "Preview Contact"
+    },
+    "partners": {
+      "createTitle": "Create Partner",
+      "editTitle": "Edit Partner",
+      "previewTitle": "Preview Partner"
+    },
+    "surveys": {
+      "createTitle": "Create Survey",
+      "editTitle": "Edit Survey",
+      "previewTitle": "Preview Survey"
+    }
+  },
+  "buttons": {
+    "add": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "goToForms": "Create Form",
+    "backToDashboard": "Back to Dashboard",
+    "backToForms": "Back to Forms",
+    "import": "Import",
+    "export": "Export",
+    "editShowcase": "Showcase Settings",
+    "seeShowcase": "View Showcase",
+    "openInNewTab": "Open in New Tab",
+    "confirm": "Confirm"
+  },
+  "delete": {
+    "title": "Are you sure you want to delete?",
+    "description": "This action cannot be undone."
+  },
+  "success": {
+    "deleteTitle": "Successfully Deleted",
+    "deleteDescription": "Property has been successfully deleted.",
+    "createTitle": "Successfully Created",
+    "createDescription": "Property has been successfully created.",
+    "updateTitle": "Successfully Updated",
+    "updateDescription": "Property has been successfully updated.",
+    "markedSafe": "Property marked as safe.",
+    "markedDestructive": "Property marked as sensitive.",
+    "markedPublic": "Property marked as public.",
+    "markedPrivate": "Property marked as private."
+  },
+  "errors": {
+    "fetchError": "Fetch Error",
+    "fetchErrorDescription": "An error occurred while fetching data. Please try again later.",
+    "deleteError": "Delete Error",
+    "deleteErrorDescription": "An error occurred while deleting the property. Please try again.",
+    "saveError": "Save Error",
+    "saveErrorDescription": "An error occurred while saving the property. Please try again later.",
+    "updateError": "Update Error",
+    "updateErrorDescription": "An error occurred while updating the property. Please try again.",
+    "downloadError": "Download Error",
+    "downloadErrorDescription": "An error occurred while downloading the file. Please try again later.",
+    "invalidPage": "Invalid Page",
+    "invalidPageDescription": "This page was not found or you don't have access.",
+    "noForm": "No Form Found",
+    "noFormDescription": "No form has been created for this page yet. Click to create a form.",
+    "noData": "No Data Found",
+    "noDataDescription": "No data has been entered yet. Click to add new data."
+  },
+  "importData": "Import Data",
+  "importDataDescription": "Import data from an Excel or CSV file",
+  "dropzone": "Drop your files here",
+  "browse": "browse files",
+  "invalidType": "Invalid file type",
+  "tooLarge": "File is too large",
+  "tooMany": "Too many files",
+  "or": "or",
+  "selectFiles": "Select Files",
+  "selectedFiles": "Files Selected",
+  "selectColumn": "Select Column",
+  "ignore": "Ignore",
+  "importing": "Importing...",
+  "importSuccess": "Import Success",
+  "importSuccessDescription": "The form has been imported successfully.",
+  "importError": "Import Error",
+  "importErrorDescription": "An error occurred while importing the form.",
+  "common": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "showcase": {
+    "title": "Showcase",
+    "selectField": "Select Field",
+    "description": "Edit showcase settings",
+    "addMapping": "Add Mapping",
+    "addMappingDescription": "Add a new mapping for showcase.",
+    "mapping": "Mapping",
+    "mappingDescription": "Add a new mapping for showcase.",
+    "mappingPlaceholder": "Enter the mapping",
+    "mappingRequired": "Mapping is required",
+    "mappingType": "Mapping Type",
+    "mappingTypeDescription": "Select the mapping type",
+    "fields": {
+      "images": "Images",
+      "title": "Title",
+      "description": "Description",
+      "price": "Price",
+      "geo": "Geo",
+      "features": "Features",
+      "category": "Property Status",
+      "sub_category": "Property Type",
+      "floor": "Floor",
+      "rooms": "Rooms",
+      "bathrooms": "Bathrooms",
+      "buildingAge": "Building Age",
+      "furnished": "Furnished",
+      "squareMeters": "Square Meters"
+    }
+  }
+} 

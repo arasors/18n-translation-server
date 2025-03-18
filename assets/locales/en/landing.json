@@ -1,0 +1,136 @@
+{
+  "hero": {
+    "title": "For Real Estate Professionals",
+    "subtitle": "The All In-One Solution",
+    "description": "Grow your business and revenue by Efficiently Managing your Contacts, Properties and Operations.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Everything you need to manage your real estate business",
+    "items": [
+      {
+        "title": "Property Management",
+        "description": "Easily manage all your properties in one place"
+      },
+      {
+        "title": "Client Management",
+        "description": "Keep track of all your clients and their preferences"
+      },
+      {
+        "title": "Document Management",
+        "description": "Store and manage all your documents securely"
+      },
+      {
+        "title": "Analytics & Reports",
+        "description": "Get insights into your business performance"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Prop360",
+    "subtitle": "Your Complete Real Estate Management Solution",
+    "description": "We provide a comprehensive solution for real estate professionals to manage their business efficiently. From property management to client relationships, we've got you covered.",
+    "stats": [
+      {
+        "value": "10K+",
+        "label": "Active Users"
+      },
+      {
+        "value": "50K+",
+        "label": "Properties Managed"
+      },
+      {
+        "value": "99%",
+        "label": "Customer Satisfaction"
+      },
+      {
+        "value": "100%",
+        "label": "Dynamic Forms"
+      }
+    ],
+    "buttons": {
+      "contact": "Contact",
+      "readMore": "Read More"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Trusted by real estate professionals worldwide",
+    "items": [
+      {
+        "quote": "Prop360 has transformed how we manage our properties. It's intuitive and powerful.",
+        "author": "John Smith",
+        "position": "Real Estate Agent",
+        "company": "Smith Properties"
+      },
+      {
+        "quote": "The best CRM solution I've used in my 15 years in real estate.",
+        "author": "Sarah Johnson",
+        "position": "Property Manager",
+        "company": "Johnson Real Estate"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that's right for you",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "saveOff": "Save 20%",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$29",
+        "period": "/month",
+        "features": [
+          "Up to 50 properties",
+          "Basic analytics",
+          "Email support",
+          "Document storage"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "$99",
+        "period": "/month",
+        "features": [
+          "Unlimited properties",
+          "Advanced analytics",
+          "Priority support",
+          "Custom branding"
+        ],
+        "cta": "Try Pro",
+        "popular": true
+      }
+    ]
+  },
+  "subscribe": {
+    "title": "Discover More About Prop 360°",
+    "subtitle": "Get in touch with us for a product demo!",
+    "placeholder": "Enter your email",
+    "button": "Submit now",
+    "success": "Thanks for subscribing!",
+    "error": "Something went wrong. Please try again."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about Prop360",
+    "items": [
+      {
+        "question": "What is Prop360?",
+        "answer": "Prop360 is a comprehensive CRM solution designed specifically for real estate professionals to manage their properties, clients, and business operations efficiently."
+      },
+      {
+        "question": "How do I get started?",
+        "answer": "Getting started is easy! Simply sign up for an account, choose your plan, and you can start managing your properties right away."
+      },
+      {
+        "question": "Can I try before I buy?",
+        "answer": "Yes! We offer a 14-day free trial on all our plans. No credit card required."
+      }
+    ]
+  }
+} 

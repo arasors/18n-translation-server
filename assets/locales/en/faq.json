@@ -1,0 +1,153 @@
+{
+  "title": "Frequently Asked Questions",
+  "description": "Find answers to frequently asked questions here.",
+  "loading": "Loading questions...",
+  "noFaq": "No questions have been added yet.",
+  "noCategoryItems": "There are no questions in this category yet.",
+  "includeInactive": "Show inactive items",
+  "noCategories": "No categories added yet",
+  "noItems": "No questions added yet",
+  "createCategoryFirst": "You need to create a category first",
+  "unknownCategory": "Unknown category",
+  
+  "tabs": {
+    "categories": "Categories",
+    "items": "Questions"
+  },
+  
+  "fields": {
+    "name": "Category Name",
+    "slug": "Slug",
+    "order": "Order",
+    "active": "Active",
+    "status": "Status",
+    "actions": "Actions",
+    "question": "Question",
+    "answer": "Answer",
+    "category": "Category",
+    "translations": "Translations"
+  },
+  
+  "placeholders": {
+    "search": "Search...",
+    "name": "{{language}} category name",
+    "slug": "category-slug",
+    "order": "Order",
+    "question": "{{language}} question",
+    "answer": "{{language}} answer",
+    "selectCategory": "Select category"
+  },
+  
+  "help": {
+    "slug": "A unique identifier for the category. If left blank, it will be generated automatically."
+  },
+  
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  
+  "actions": {
+    "title": "Actions",
+    "addCategory": "Add Category",
+    "addFirstCategory": "Add First Category",
+    "addItem": "Add Question",
+    "addFirstItem": "Add First Question",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update",
+    "confirmDelete": "Yes, Delete",
+    "openMenu": "Open Menu",
+    "viewItems": "View Questions",
+    "addLanguage": "Add Language",
+    "removeLanguage": "Remove Language",
+    "viewMore": "View More",
+    "back": "Go Back",
+    "backToFaq": "Back to FAQ"
+  },
+  
+  "videos": {
+    "title": "Related Videos",
+    "add": "Add Video",
+    "titlePlaceholder": "Video Title (Optional)",
+    "idPlaceholder": "YouTube IFRAME Code"
+  },
+  
+  "dialogs": {
+    "createCategory": {
+      "title": "Create New Category",
+      "description": "Create a new FAQ category"
+    },
+    "editCategory": {
+      "title": "Edit Category",
+      "description": "Edit category information"
+    },
+    "deleteCategory": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone and all questions in this category will also be deleted."
+    },
+    "createItem": {
+      "title": "Create New Question",
+      "description": "Add a new question and answer"
+    },
+    "editItem": {
+      "title": "Edit Question",
+      "description": "Edit question and answer information"
+    },
+    "deleteItem": {
+      "title": "Delete Question",
+      "description": "Are you sure you want to delete this question? This action cannot be undone."
+    },
+    "addLanguage": {
+      "title": "Add Language",
+      "description": "Select the language you want to add"
+    }
+  },
+  
+  "success": {
+    "categoryCreated": "Category created",
+    "categoryUpdated": "Category updated",
+    "categoryDeleted": "Category deleted",
+    "itemCreated": "Question created",
+    "itemUpdated": "Question updated",
+    "itemDeleted": "Question deleted",
+    "categoryDescription": "Category saved successfully.",
+    "itemDescription": "Question saved successfully.",
+    "deleteDescription": "Item deleted successfully",
+    "feedbackSubmitted": "Feedback submitted",
+    "feedbackDescription": "Thank you for your feedback."
+  },
+  
+  "errors": {
+    "fetchFailed": "An error occurred while loading questions.",
+    "fetchFailedDescription": "An error occurred while loading data. Please try again later.",
+    "saveFailed": "Save operation failed",
+    "saveFailedDescription": "An error occurred while saving changes.",
+    "deleteFailed": "Delete operation failed",
+    "deleteFailedDescription": "An error occurred while deleting the item.",
+    "categoryRequired": "Please select a category",
+    "questionNotFound": "Question not found",
+    "feedbackFailed": "Failed to submit feedback",
+    "feedbackFailedDescription": "An error occurred while submitting your feedback. Please try again later."
+  },
+  
+  "feedback": {
+    "title": "Was this answer helpful?",
+    "question": "Was this answer helpful to you?",
+    "helpful": "Yes, it was helpful",
+    "notHelpful": "No, it wasn't helpful",
+    "thankYou": "Thank you for your feedback!"
+  },
+  
+  "language": "Language",
+  
+  "confirm": {
+    "deleteTitle": "Confirm deletion",
+    "deleteCategory": "Are you sure you want to delete this category? This action cannot be undone and all questions in this category will also be deleted.",
+    "deleteItem": "Are you sure you want to delete this question? This action cannot be undone.",
+    "confirm": "Yes, delete",
+    "cancel": "Cancel"
+  }
+} 

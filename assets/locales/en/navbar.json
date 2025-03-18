@@ -1,0 +1,67 @@
+{
+  "search": {
+    "placeholder": "Search in projects...",
+    "shortPlaceholder": "Search...",
+    "keyboardShortcut": "⌘K"
+  },
+  "loading": "Loading...",
+  "notifications": {
+    "title": "Notifications",
+    "noNotifications": "No notifications",
+    "markAsRead": "Mark as read"
+  },
+  "theme": {
+    "title": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "purple": "Purple",
+    "sky": "Sky",
+    "green": "Green",
+    "orange": "Orange",
+    "system": "System",
+    "toggle": "Toggle Theme"
+  },
+  "colorSchemes": {
+    "default": "Default",
+    "purple": "Lavender",
+    "orange": "Orange",
+    "green": "Lime",
+    "sky": "Sky Blue",
+    "red": "Rose",
+    "pink": "Pink"
+  },
+  "switchColorScheme": "Color Scheme",
+  "menu": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "language": "Language",
+    "features": "Features",
+    "pricing": "Pricing",
+    "merchant": "Company Profile",
+    "membership": "Membership",
+    "usage": "Usage",
+    "properties": "Properties",
+    "help": "Help",
+    "faq": "FAQ"
+  },
+  "language": {
+    "title": "Language",
+    "english": "English",
+    "turkish": "Turkish",
+    "changed": {
+      "title": "Language Changed",
+      "description": "Language changed successfully",
+      "en": "Language changed successfully to English",
+      "tr": "Language changed successfully to Turkish"
+    }
+  },
+  "mobileMenu": {
+    "home": "Home",
+    "search": "Search",
+    "profile": "Profile"
+  }
+} 

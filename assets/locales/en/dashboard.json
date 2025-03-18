@@ -1,0 +1,348 @@
+{
+  "title": "Dashboard",
+  "loading": "Loading...",
+  "noLayouts": "No layouts found",
+  "noLayoutsDescription": "Start by creating a layout for your dashboard",
+  "days": "Days",
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "membership": "Membership",
+    "plans": "Plans",
+    "transactions": "Transactions",
+    "salesFunnel": "Task Management",
+    "calendar": "Calendar",
+    "contacts": "Contacts",
+    "properties": "Properties",
+    "settings": "Settings",
+    "merchants": "Agents",
+    "users": "Users",
+    "pages": "Pages",
+    "layouts": "Layouts",
+    "forms": "Forms",
+    "dictionaries": "Form Elements",
+    "activities": "Activities",
+    "getPro": "Upgrade to Pro",
+    "generalSettings": "General Settings",
+    "partners": "Partners",
+    "surveys": "Surveys",
+    "leads": "Leads",
+    "layoutItems": "Layout Items",
+    "admin": "Admin",
+    "messenger": "Messenger",
+    "invoices": "Invoices"
+  },
+  "upgradePlanModal": {
+    "title": "Upgrade Your Plan",
+    "description": "Select the right plan for your business",
+    "cancel": "Cancel"
+  },
+  "salesFunnel": {
+    "title": "Task Management",
+    "addColumn": "Add Column",
+    "addTask": "Add Task",
+    "editColumn": "Edit Column",
+    "deleteColumn": "Delete Column",
+    "columnTitle": "Column Title",
+    "columnColor": "Column Color",
+    "deleteColumnConfirm": "Are you sure you want to delete this column? This action cannot be undone.",
+    "task": {
+      "title": "Task Title",
+      "description": "Description",
+      "assignedTo": "Assigned To",
+      "dueDate": "Due Date",
+      "labels": "Labels",
+      "addLabel": "Add Label",
+      "comments": "Comments",
+      "addComment": "Add Comment",
+      "attachments": "Attachments",
+      "addAttachment": "Add Attachment",
+      "deleteTask": "Delete Task",
+      "deleteTaskConfirm": "Are you sure you want to delete this task? This action cannot be undone.",
+      "editTask": "Edit Task",
+      "viewTask": "View Task",
+      "noComments": "No comments yet",
+      "writeComment": "Write a comment...",
+      "commentPlaceholder": "Write your comment here...",
+      "deleteComment": "Delete Comment",
+      "deleteCommentConfirm": "Are you sure you want to delete this comment? This action cannot be undone.",
+      "editComment": "Edit Comment",
+      "unassigned": "Unassigned",
+      "selectUser": "Select User"
+    },
+    "defaultColumns": {
+      "title": "Create Default Columns",
+      "description": "You don't have any columns yet. Would you like to create default columns (Leads, In Process, Customer, Canceled) for your task management?",
+      "confirm": "Create Default Columns",
+      "successTitle": "Columns Created",
+      "successDescription": "Default columns have been created successfully."
+    }
+  },
+  "errors": {
+    "fetchError": "Data Loading Error",
+    "fetchErrorDescription": "An error occurred while loading data.",
+    "saveError": "Save Error",
+    "saveErrorDescription": "An error occurred while saving data.",
+    "deleteError": "Delete Error",
+    "deleteErrorDescription": "An error occurred while deleting data.",
+    "uploadError": "Upload Error",
+    "uploadErrorDescription": "An error occurred while uploading file.",
+    "downloadError": "Download Error",
+    "downloadErrorDescription": "An error occurred while downloading file."
+  },
+  "success": {
+    "saveTitle": "Successfully Saved",
+    "saveDescription": "Your changes have been saved successfully.",
+    "deleteTitle": "Successfully Deleted",
+    "deleteDescription": "Item has been deleted successfully.",
+    "uploadTitle": "Successfully Uploaded",
+    "uploadDescription": "File has been uploaded successfully."
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading...",
+    "search": "Search",
+    "noResults": "No results found",
+    "dragAndDrop": "Drag and drop",
+    "or": "or",
+    "browse": "Browse"
+  },
+  "users": {
+    "title": "User Management",
+    "subtitle": "View and manage all users",
+    "createUser": "Create User",
+    "table": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "status": "Status",
+      "role": "Role",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "suspended": "Suspended"
+    },
+    "role": {
+      "admin": "Administrator",
+      "user": "User",
+      "agent": "Agent"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "suspend": "Suspend",
+      "activate": "Activate"
+    },
+    "noUsers": "No users found",
+    "search": "Search users...",
+    "modal": {
+      "createTitle": "Create New User",
+      "editTitle": "Edit User"
+    },
+    "form": {
+      "displayName": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "companyName": "Agent Name",
+      "position": "Position",
+      "role": "Role",
+      "status": "Status",
+      "selectRole": "Select role",
+      "selectStatus": "Select status",
+      "password": "Password",
+      "passwordOptional": "optional - will be randomly generated if left empty",
+      "passwordPlaceholder": "Enter password or leave empty",
+      "branch": "Branch"
+    },
+    "deleteDialog": {
+      "title": "Delete User",
+      "description": "Are you sure you want to delete this user? This action cannot be undone."
+    },
+    "toast": {
+      "success": {
+        "title": "Success",
+        "create": "User created successfully",
+        "update": "User updated successfully",
+        "delete": "User deleted successfully",
+        "statusUpdate": "User status updated successfully"
+      },
+      "error": {
+        "title": "Error",
+        "save": "Failed to save user",
+        "alreadyExists": "User already exists",
+        "delete": "Failed to delete user",
+        "fetch": "Failed to fetch users",
+        "statusUpdate": "Failed to update user status",
+        "deleteSelf": "You cannot delete your own account"
+      }
+    }
+  },
+  "stats": {
+    "totalProperties": {
+      "title": "Total Properties",
+      "description": "Active listings"
+    },
+    "totalContacts": {
+      "title": "Total Contacts",
+      "description": "Active contacts"
+    },
+    "activePartners": {
+      "title": "Active Partners",
+      "description": "Collaborating partners"
+    },
+    "monthlySales": {
+      "title": "Monthly Sales",
+      "description": "+20.1% from last month"
+    }
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "noActivity": "No recent activity to show."
+  },
+  "activity": {
+    "title": "Activity History",
+    "noActivities": "No activities found",
+    "filters": {
+      "module": "Module",
+      "action": "Action",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "allModules": "All Modules",
+      "allActions": "All Actions"
+    },
+    "modules": {
+      "form_data": "Form Data",
+      "user": "User",
+      "task": "Task",
+      "column": "Column",
+      "sales_funnel": "Task Management",
+      "merchant": "Agent",
+      "comment": "Comment",
+      "page": "Page",
+      "page_data": "Page Data",
+      "page_data_item": "Page Data Item",
+      "layout": "Layout",
+      "layout_item": "Layout Item",
+      "showcase": "Showcase",
+      "showcase_item": "Showcase Item",
+      "bulk_create": "Bulk Create"
+    },
+    "actions": {
+      "create": "Create",
+      "update": "Update",
+      "delete": "Delete",
+      "register": "Register",
+      "profile_update": "Profile Update",
+      "task_move": "Task Move",
+      "column_move": "Column Move",
+      "sales_funnel_move": "Task Management Move",
+      "page_move": "Page Move",
+      "page_create": "Page Create",
+      "page_update": "Page Update",
+      "page_delete": "Page Delete",
+      "layout_create": "Layout Create",
+      "layout_update": "Layout Update",
+      "layout_delete": "Layout Delete",
+      "layout_item_create": "Layout Item Create",
+      "layout_item_update": "Layout Item Update",
+      "layout_item_delete": "Layout Item Delete",
+      "showcase_create": "Showcase Create",
+      "showcase_update": "Showcase Update",
+      "showcase_delete": "Showcase Delete"
+    },
+    "table": {
+      "date": "Date",
+      "user": "User",
+      "module": "Module",
+      "action": "Action",
+      "description": "Description",
+      "ip": "IP Address"
+    },
+    "pagination": {
+      "showing": "Showing {{start}}-{{end}} of {{total}} records",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "membership": {
+    "title": "Membership Plans",
+    "subtitle": "Upgrade your plan to unlock more features",
+    "currentPlan": "Current Plan",
+    "upgradePlan": "Upgrade Plan",
+    "freePlan": "Free Plan",
+    "noPlansAvailable": "No plans available",
+    "pricingTable": {
+      "title": "Choose the right plan for your business",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "savePercent": "Save {{percent}}%",
+      "mostPopular": "Most Popular",
+      "freeTrial": "Free Trial",
+      "features": "Features",
+      "limits": "Limits",
+      "unlimited": "Unlimited",
+      "currentPlan": "Current Plan",
+      "choosePlan": "Choose Plan",
+      "contactUs": "Contact Us"
+    },
+    "features": {
+      "taskManagement": "Task Management",
+      "calendar": "Calendar Integration",
+      "domainCustomize": "Custom Domain",
+      "api": "API Access",
+      "support": "Customer Support"
+    },
+    "limits": {
+      "formData": "Form Entries",
+      "forms": "Forms",
+      "pages": "Pages",
+      "users": "Users"
+    }
+  },
+  "limitExceeded": {
+    "title": "Limit Exceeded",
+    "description": "You have reached the limit of {{type}} ({{current}}/{{limit}}). Please upgrade your plan to add more {{type}}.",
+    "cancel": "Cancel",
+    "upgrade": "Upgrade Plan"
+  },
+  "featureNotAvailable": "Feature Not Available",
+  "upgradeToAccessTaskManagement": "Upgrade to access Task Management feature.",
+  "transactions": {
+    "title": "Transaction History",
+    "subtitle": "View and manage all your payment transactions",
+    "resetFilters": "Reset Filters",
+    "retry": "Retry",
+    "fetchError": "An error occurred while loading transaction history",
+    "noTransactions": "No transaction history yet",
+    "filters": {
+      "title": "Filters",
+      "description": "Use the options below to filter your transaction history",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "allStatuses": "All Statuses",
+      "allMethods": "All Methods",
+      "pickDate": "Pick a date"
+    },
+    "list": {
+      "title": "Transactions",
+      "showing": "Showing {{start}}-{{end}} of {{total}} transactions",
+      "date": "Date",
+      "plan": "Plan",
+      "amount": "Amount",
+      "method": "Payment Method",
+      "status": "Status",
+      "transactionId": "Transaction ID",
+      "rowsPerPage": "Rows per page:"
+    }
+  }
+} 

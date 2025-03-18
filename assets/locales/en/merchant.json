@@ -1,0 +1,104 @@
+{
+  "title": "Agent Profile",
+  "tabs": {
+    "general": "General",
+    "contact": "Contact",
+    "social": "Social Media",
+    "branches": "Branches",
+    "settings": "Settings"
+  },
+  "general": {
+    "title": "General Information",
+    "name": "Agent Name",
+    "namePlaceholder": "Enter agent name",
+    "url": "Agent URL",
+    "urlPlaceholder": "Enter agent URL",
+    "urlHelp": "Create a unique URL for your agent. You can only use letters, numbers, and hyphens (-).",
+    "urlNotAvailable": "This URL is already in use by another agent. Please try a different URL.",
+    "membershipType": "Membership Type",
+    "selectMembershipType": "Select membership type",
+    "membershipTypeHelp": "Your membership type determines the features you can use. You need to make a payment to change your membership type.",
+    "upgradeMembership": "Upgrade Membership",
+    "membershipTypes": {
+      "free": "Free",
+      "basic": "Basic",
+      "premium": "Premium",
+      "enterprise": "Enterprise"
+    },
+    "free": "Free",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter a short description about the agent",
+    "logo": "Logo",
+    "logoHelp": "Recommended size: 200x200 pixels, maximum 2MB"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter phone number",
+    "addPhone": "Add Phone",
+    "email": "Email",
+    "emailPlaceholder": "Enter email address",
+    "addEmail": "Add Email",
+    "address": "Address",
+    "addressPlaceholder": "Enter address"
+  },
+  "social": {
+    "title": "Social Media Accounts",
+    "facebook": "Facebook",
+    "facebookPlaceholder": "URL of your Facebook page",
+    "twitter": "Twitter",
+    "twitterPlaceholder": "URL of your Twitter account",
+    "instagram": "Instagram",
+    "instagramPlaceholder": "URL of your Instagram account",
+    "linkedin": "LinkedIn",
+    "linkedinPlaceholder": "URL of your LinkedIn page",
+    "youtube": "YouTube",
+    "youtubePlaceholder": "URL of your YouTube channel"
+  },
+  "branches": {
+    "title": "Branches",
+    "name": "Branch Name",
+    "namePlaceholder": "Enter branch name",
+    "address": "Address",
+    "addressPlaceholder": "Enter branch address",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter branch phone number",
+    "email": "Email",
+    "emailPlaceholder": "Enter branch email address",
+    "addBranch": "Add Branch",
+    "noBranches": "No branches added yet",
+    "location": "Location",
+    "actions": "Actions",
+    "addNew": "Add New"
+  },
+  "settings": {
+    "title": "Settings",
+    "timezone": "Timezone",
+    "timezonePlaceholder": "Select timezone",
+    "currency": "Currency",
+    "currencyPlaceholder": "Select currency"
+  },
+  "urlCopied": "URL copied to clipboard",
+  "save": "Save",
+  "saving": "Saving...",
+  "success": "Success",
+  "error": "Error",
+  "createSuccess": "Agent profile created successfully",
+  "updateSuccess": "Agent profile updated successfully",
+  "updateError": "An error occurred while updating agent profile",
+  "errors": {
+    "fetchError": "Error",
+    "fetchErrorDescription": "An error occurred while fetching agent information",
+    "uploadError": "Upload Error",
+    "uploadErrorDescription": "An error occurred while uploading logo"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "add": "Add",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close"
+  }
+} 
