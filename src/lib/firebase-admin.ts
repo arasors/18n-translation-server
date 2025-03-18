@@ -7,28 +7,33 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Service account dosyasının yolunu belirleme
-const serviceAccountPath = path.resolve(
-  process.env.FIREBASE_SERVICE_ACCOUNT_PATH || 
-  path.join(__dirname, process.env.FIREBASE_SERVICE_ACCOUNT_PATH || '')
-);
+const serviceAccountPath = process.env.FIREBASE_SERVICE_ACCOUNT_PATH || 
+  path.join(__dirname, '../../firebase-admin-services.json');
 
 // Firebase admin başlatma
 if (!admin.apps.length) {
   try {
     // Service account dosyasının varlığını kontrol et
-    if (fs.existsSync(serviceAccountPath)) {
-      const serviceAccount = JSON.parse(
-        fs.readFileSync(serviceAccountPath, 'utf8')
-      );
-      
-      admin.initializeApp({
-        credential: admin.credential.cert(serviceAccount as admin.ServiceAccount)
-      });
-    } else {
+    if (!fs.existsSync(serviceAccountPath)) {
       throw new Error(`Firebase service account dosyası bulunamadı: ${serviceAccountPath}`);
     }
+
+    // Dosya mı yoksa dizin mi kontrol et
+    const stats = fs.statSync(serviceAccountPath);
+    if (stats.isDirectory()) {
+      throw new Error(`Belirtilen yol bir dizin: ${serviceAccountPath}`);
+    }
+
+    const serviceAccount = JSON.parse(
+      fs.readFileSync(serviceAccountPath, 'utf8')
+    );
+    
+    admin.initializeApp({
+      credential: admin.credential.cert(serviceAccount as admin.ServiceAccount)
+    });
   } catch (error: any) {
-    console.error('Firebase admin başlatma hatası:', error.stack);
+    console.error('Firebase admin başlatma hatası:', error.message);
+    throw error; // Hata durumunda uygulamanın başlamasını engelle
   }
 }
 

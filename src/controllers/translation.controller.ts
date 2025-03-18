@@ -131,6 +131,20 @@ export class TranslationController {
       const content = await TranslationService.getTranslation(namespace, language);
       
       if (!content) {
+        // Eğer çeviri bulunamadıysa ve dil İngilizce değilse, İngilizce çevirileri getir
+        if (language !== 'en') {
+          const defaultContent = await TranslationService.getTranslation(namespace, 'en');
+          
+          if (defaultContent) {
+            res.json({
+              success: true,
+              data: defaultContent,
+              message: `${language} dili için çeviri bulunamadı, varsayılan İngilizce çeviriler gösteriliyor`
+            });
+            return;
+          }
+        }
+        
         res.status(404).json({
           success: false,
           message: `${namespace} namespace'i ve ${language} dili için çeviri bulunamadı`
