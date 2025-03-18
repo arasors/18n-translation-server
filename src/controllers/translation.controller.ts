@@ -34,7 +34,7 @@ export class TranslationController {
       logger.error(`getAllTranslations hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Çeviriler getirilirken bir hata oluştu',
+        message: 'Translations retrieval error',
         error: error.message
       });
     }
@@ -55,7 +55,7 @@ export class TranslationController {
       logger.error(`getAllLanguages hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Diller getirilirken bir hata oluştu',
+        message: 'Languages retrieval error',
         error: error.message
       });
     }
@@ -139,7 +139,7 @@ export class TranslationController {
             res.json({
               success: true,
               data: defaultContent,
-              message: `${language} dili için çeviri bulunamadı, varsayılan İngilizce çeviriler gösteriliyor`
+              message: `${language} not found, default english translations are shown`
             });
             return;
           }
@@ -147,7 +147,7 @@ export class TranslationController {
         
         res.status(404).json({
           success: false,
-          message: `${namespace} namespace'i ve ${language} dili için çeviri bulunamadı`
+          message: `${namespace} namespace and ${language} language translation not found`
         });
         return;
       }
@@ -178,7 +178,7 @@ export class TranslationController {
       if (!namespace || !language) {
         res.status(400).json({
           success: false,
-          message: 'Namespace ve dil parametreleri gereklidir'
+          message: 'Namespace and language parameters are required'
         });
         return;
       }
@@ -186,7 +186,7 @@ export class TranslationController {
       if (!content || typeof content !== 'object') {
         res.status(400).json({
           success: false,
-          message: 'Geçerli bir çeviri içeriği gereklidir'
+          message: 'Valid translation content is required'
         });
         return;
       }
@@ -195,14 +195,14 @@ export class TranslationController {
       
       res.json({
         success: true,
-        message: `${namespace} namespace'i ve ${language} dili için çeviri güncellendi`,
+        message: `${namespace} namespace and ${language} language translation updated`,
         data: translation
       });
     } catch (error: any) {
       logger.error(`setTranslation hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Çeviri güncellenirken bir hata oluştu',
+        message: 'Translation update error',
         error: error.message
       });
     }
@@ -228,7 +228,7 @@ export class TranslationController {
       if (!partialContent || typeof partialContent !== 'object') {
         res.status(400).json({
           success: false,
-          message: 'Geçerli bir çeviri içeriği gereklidir'
+          message: 'Valid translation content is required'
         });
         return;
       }
@@ -242,14 +242,14 @@ export class TranslationController {
       
       res.json({
         success: true,
-        message: `${namespace} namespace'i ve ${language} dili için çeviri kısmen güncellendi`,
+        message: `${namespace} namespace and ${language} language translation partially updated`,
         data: translation
       });
     } catch (error: any) {
       logger.error(`updatePartialTranslation hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Çeviri kısmen güncellenirken bir hata oluştu',
+        message: 'Translation update error',
         error: error.message
       });
     }
@@ -266,7 +266,7 @@ export class TranslationController {
       if (!namespace || !language || !key) {
         res.status(400).json({
           success: false,
-          message: 'Namespace, dil ve anahtar parametreleri gereklidir'
+          message: 'Namespace, language and key parameters are required'
         });
         return;
       }
@@ -276,21 +276,21 @@ export class TranslationController {
       if (!translation) {
         res.status(404).json({
           success: false,
-          message: `${namespace} namespace'i ve ${language} dili için çeviri bulunamadı`
+          message: `${namespace} namespace and ${language} language translation not found`
         });
         return;
       }
       
       res.json({
         success: true,
-        message: `${namespace} namespace'i ve ${language} dili için '${key}' anahtarı silindi`,
+        message: `${namespace} namespace and ${language} language translation deleted`,
         data: translation
       });
     } catch (error: any) {
       logger.error(`deleteTranslationKey hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Çeviri anahtarı silinirken bir hata oluştu',
+        message: 'Translation key deletion error',
         error: error.message
       });
     }
@@ -306,7 +306,7 @@ export class TranslationController {
       if (!namespace || !language) {
         res.status(400).json({
           success: false,
-          message: 'Namespace ve dil parametreleri gereklidir'
+          message: 'Namespace and language parameters are required'
         });
         return;
       }
@@ -316,20 +316,20 @@ export class TranslationController {
       if (!deleted) {
         res.status(404).json({
           success: false,
-          message: `${namespace} namespace'i ve ${language} dili için çeviri bulunamadı`
+          message: `${namespace} namespace and ${language} language translation not found`
         });
         return;
       }
       
       res.json({
         success: true,
-        message: `${namespace} namespace'i ve ${language} dili için çeviri silindi`
+        message: `${namespace} namespace and ${language} language translation deleted`
       });
     } catch (error: any) {
       logger.error(`deleteTranslation hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Çeviri silinirken bir hata oluştu',
+        message: 'Translation deletion error',
         error: error.message
       });
     }
@@ -348,7 +348,7 @@ export class TranslationController {
       if (!namespace || !language) {
         res.status(400).json({
           success: false,
-          message: 'Namespace ve dil parametreleri gereklidir'
+          message: 'Namespace and language parameters are required'
         });
         return;
       }
@@ -356,7 +356,7 @@ export class TranslationController {
       if (!content || typeof content !== 'object') {
         res.status(400).json({
           success: false,
-          message: 'Geçerli bir çeviri içeriği gereklidir'
+          message: 'Valid translation content is required'
         });
         return;
       }
@@ -371,14 +371,14 @@ export class TranslationController {
       
       res.json({
         success: true,
-        message: `${namespace} namespace'i ve ${language} dili için çeviri içe aktarıldı`,
+        message: `${namespace} namespace and ${language} language translation imported`,
         data: translation
       });
     } catch (error: any) {
       logger.error(`importTranslation hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Çeviri içe aktarılırken bir hata oluştu',
+        message: 'Translation import error',
         error: error.message
       });
     }
@@ -395,7 +395,7 @@ export class TranslationController {
       if (!namespace || !language) {
         res.status(400).json({
           success: false,
-          message: 'Namespace ve dil parametreleri gereklidir'
+          message: 'Namespace and language parameters are required'
         });
         return;
       }
@@ -406,7 +406,7 @@ export class TranslationController {
       if (!sourceContent) {
         res.status(404).json({
           success: false,
-          message: `${namespace} namespace'i ve ${sourceLanguage} dili için kaynak çeviri bulunamadı`
+          message: `${namespace} namespace and ${sourceLanguage} language source translation not found`
         });
         return;
       }
@@ -430,7 +430,7 @@ export class TranslationController {
       logger.error(`getTranslationProgress hatası: ${error.message}`);
       res.status(500).json({
         success: false,
-        message: 'Çeviri ilerlemesi hesaplanırken bir hata oluştu',
+        message: 'Translation progress calculation error',
         error: error.message
       });
     }
