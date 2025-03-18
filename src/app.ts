@@ -10,11 +10,25 @@ import apiRoutes from './routes/api.routes';
 // Express uygulaması oluşturma
 const app = express();
 
+// CORS izinlerini origin olarak al ve virgülle ayrılmış diziye dönüştür
+const corsOrigins = process.env.CORS_ORIGIN 
+  ? process.env.CORS_ORIGIN.split(',').map(origin => origin.trim())
+  : ['http://localhost:3000']; // Varsayılan olarak localhost
+
 // Cross-Origin Resource Sharing (CORS) izinleri
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || '*', // Yalnızca belirli bir kökene izin ver
+  origin: function(origin, callback) {
+    // Origin headers'ı gelmiyorsa (örn: Postman'dan yapılan istekler) veya izin verilen origins içindeyse izin ver
+    if (!origin || corsOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      logger.warn(`CORS hatası: ${origin} için istek reddedildi`);
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true // Cookie paylaşımına izin ver
 }));
 
 // Güvenlik başlıkları
@@ -43,7 +57,8 @@ app.get('/', (req, res) => {
   res.json({
     name: 'Translation Server API',
     version: '1.0.0',
-    status: 'online'
+    status: 'online',
+    allowedOrigins: corsOrigins
   });
 });
 

@@ -63,4 +63,11 @@ router.post('/translations/import/:namespace/:language',
   TranslationController.importTranslation
 );
 
+// Çeviri içe aktar - PATCH metodu (birleştirme için)
+router.patch('/translations/import/:namespace/:language', 
+  authenticateRequest, 
+  isAdmin,
+  TranslationController.importTranslation
+);
+
 export default router; 

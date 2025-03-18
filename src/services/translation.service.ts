@@ -235,14 +235,14 @@ export class TranslationService {
    * @param language Dil kodu
    * @param content Çeviri içeriği
    * @param userId Güncelleyen kullanıcı ID'si
-   * @param merge Varolan çeviriyle birleştir (varsayılan: false)
+   * @param merge Varolan çeviriyle birleştir (varsayılan: true)
    */
   static async importTranslation(
     namespace: string,
     language: string,
     content: Record<string, any>,
     userId?: string,
-    merge: boolean = false
+    merge: boolean = true
   ): Promise<ITranslation> {
     try {
       if (merge) {
