@@ -26,6 +26,7 @@ out/
 build
 dist
 translation-server
+logs
 
 
 # Debug
